@@ -1,0 +1,112 @@
+html, body{
+    background-image: linear-gradient(
+        125deg,
+        #2c3e50,
+        #27ae60,
+        #2980b9,
+        #e74c3c,
+        #8e44ad
+      );
+      background-size: 400% 400%;
+      animation: bganimation 15s infinite;
+      height: 100%;
+  }
+  
+  /* navbar */
+  .nav-all {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(184, 184, 2, 0.801) !important;
+  }
+  
+  .nav-element-left {
+    justify-content: end;
+  }
+  
+  .nav-li {
+    margin: 0em 0.3em;
+    height: 100%;
+  }
+  
+  .nav-right {
+    color: white !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 7px;
+  }
+  
+  .nav-right:hover {
+    color: rgb(85, 83, 83) !important;
+  }
+  
+  /* section one code */
+  .sec-1{
+      padding: 2em 03em;
+  }
+  
+  @keyframes bganimation {
+      0%{
+        background-position: 0% 50%;
+      }
+      50%{
+        background-position: 100% 50%;
+      }
+      100%{
+        background-position: 0% 50%;
+      }
+    }
+  
+  .whole-table{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .title{
+      font-weight: bold;
+      color: black;
+      margin-bottom: 1em;
+  }
+  
+  .table{
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0;
+      background-image: linear-gradient(to left, white, white);
+  }
+  
+  .main-td{
+      background-image: linear-gradient(gray, gray);
+  }
+  
+  .td-element{
+      border: 1.5px solid black;
+      width: 12%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .td-element h5{
+      margin: .5em 0em;
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+  
+  .td-element-sub{
+      border: 1.5px solid black;
+      width: 12%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .td-element-sub h5{
+      margin: .5em 0em;
+      font-size: .8rem;
+      font-weight: bold;
+  }

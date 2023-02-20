@@ -1,0 +1,107 @@
+/* navbar */
+.nav-all {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(184, 184, 2, 0.801) !important;
+}
+
+.nav-element-left {
+  justify-content: end;
+}
+
+.nav-li {
+  margin: 0em 0.3em;
+  height: 100%;
+}
+
+.nav-right {
+  color: white !important;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.nav-right:hover {
+  color: rgb(85, 83, 83) !important;
+}
+/* sign up part */
+.sign-up-main {
+  display: flex;
+  height: 90.2vh;
+}
+
+.common {
+  height: 100% !important;
+}
+
+.two-part {
+  width: 100%;
+  display: flex;
+  height: 80vh;
+}
+
+.left-part {
+  width: 50%;
+}
+
+.left-part img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-part {
+  width: 50%;
+}
+
+.right-first {
+  width: 50%;
+  padding: 3em 0em 0em 3em;
+}
+
+.right-last {
+  width: 50%;
+  padding: 3em 0em 0em 3em;
+}
+
+.right-first h5,
+.right-last h5 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.right-first input,
+.right-last input {
+  /* border: 1px solid red; */
+  margin: 0em 0em 0.4em 0em;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0em 0.5em 0.15em 0.5em;
+}
+
+.btn {
+  border: none !important;
+  padding: 0.4em 0.9em !important;
+}
+
+.right-first .btn {
+  margin: 0.3em 0em 0.2em 0em;
+}
+
+.right-first h4 {
+  font-weight: bold;
+  font-size: 13px;
+  padding-top: 0.3em;
+}
+
+.right-first a {
+  text-decoration: none;
+}
+
+.right-first a:hover {
+  cursor: pointer;
+}
+
+.right-back {
+  background-color: rgb(228, 228, 228);
+}

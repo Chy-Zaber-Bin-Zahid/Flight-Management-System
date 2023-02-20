@@ -1,0 +1,276 @@
+/* navbar */
+.nav-all {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(184, 184, 2, 0.801) !important;
+  }
+  
+  .nav-element-left {
+    justify-content: end;
+  }
+  
+  .nav-li {
+    margin: 0em 0.3em;
+    height: 100%;
+  }
+  
+  .nav-right {
+    color: white !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 7px;
+  }
+  
+  .nav-right:hover {
+    color: rgb(85, 83, 83) !important;
+  }
+    
+    /* section one */
+    .sec-1 {
+      display: flex;
+    }
+
+    .profile {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(228, 228, 228);
+        border: 1px solid black;
+      }
+      
+      #user-name:hover {
+          color: rgb(60, 151, 0);
+      }
+      
+      .profile img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-right: .7em;
+      }
+      
+      .ticket-title {
+        text-align: center;
+        width: 80%;
+        background-color: lightblue;
+      }
+  
+      .ticket-title h1{
+          font-size: 2.3rem;
+      }
+      
+      /* section two */
+      .sec-2 {
+        display: flex;
+        height: 100%;
+      }
+      
+      .option {
+        width: 20%;
+        background-color: rgb(228, 228, 228);
+      }
+      
+      .sec-2 a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      .sec-2 a:hover {
+        color: black;
+      }
+      
+      .adjust {
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* section t2o right part */
+      .ticket-select {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        background-color: lightblue;
+        padding: 2em;
+      }
+      
+      .form {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em 0em;
+      }
+      
+      .form h5 {
+        color: black;
+      }
+      
+      .form input {
+        margin-bottom: 0.3em;
+        border-radius: 5px;
+      }
+      
+      .above-input {
+        width: 100%;
+        padding: 0em 0.3em;
+      }
+      
+      .card {
+        box-shadow: 1px 1px 5px gray;
+        background-color: rgb(228, 228, 228);
+      }
+      
+      .passenger {
+        font-size: 1.25rem;
+        color: black;
+        margin-right: 0.5em;
+      }
+      
+      .p-child {
+        margin-left: 0.2em;
+      }
+      
+      .sel {
+        width: 100%;
+        margin-bottom: 0.3em;
+        background-color: white;
+      }
+      
+      .sel:hover {
+        cursor: pointer;
+        background-color: lightslategrey;
+      }
+      
+      .ad-ch{
+          background-color: white;
+      }
+  
+      .ad-ch:hover {
+        cursor: pointer;
+        background-color: lightslategray;
+      }
+      
+    
+
+    
+    /* section three part */
+    .plane-booking img {
+      width: 100%;
+      height: 400px;
+    }
+    
+
+/* 
+    .profile {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+      }
+      
+      #user-name:hover {
+          color: rgb(60, 151, 0);
+      }
+      
+      .profile img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-right: .7em;
+      }
+      
+      .ticket-title {
+        text-align: center;
+        width: 80%;
+        background-color: yellow;
+      }
+      
+      /* section two */
+      /* .sec-2 {
+        display: flex;
+        height: 100%;
+      }
+      
+      .option {
+        width: 20%;
+        background-color: green;
+      }
+      
+      .sec-2 a {
+        text-decoration: none;
+        color: white;
+      }
+      
+      .sec-2 a:hover {
+        color: black;
+      }
+      
+      .adjust {
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* section t2o right part */
+      /*.ticket-select {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        background-color: pink;
+        padding: 2em;
+      }
+      
+      .form {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1em 0em;
+      }
+      
+      .form h5 {
+        color: white;
+      }
+      
+      .form input {
+        margin-bottom: 0.3em;
+        border-radius: 5px;
+      }
+      
+      .above-input {
+        width: 100%;
+        padding: 0em 0.3em;
+      }
+      
+      .card {
+        box-shadow: 1px 1px 5px gray;
+        background-color: green;
+      }
+      
+      .passenger {
+        font-size: 1.25rem;
+        color: white;
+        margin-right: 0.5em;
+      }
+      
+      .p-child {
+        margin-left: 0.2em;
+      }
+      
+      .sel {
+        width: 100%;
+        margin-bottom: 0.3em;
+      }
+      
+      .sel:hover {
+        cursor: pointer;
+        background-color: rgb(134, 240, 204);
+      }
+      
+      .ad-ch:hover {
+        cursor: pointer;
+        background-color: rgb(134, 240, 204);
+      }
+      
+      #submit:hover {
+        background-color: red;
+        color: black;
+      }*/
